@@ -20,6 +20,22 @@ a {
     text-decoration: none;
 }
 
+
+/* button related styles  */
+
+/* card button  */
+
+.sky-blue {
+    color: #64C8FF;
+}
+
+.yellow {
+    color: #F0AA00;
+}
+.purple {
+    color: #8700FF;
+}
+
 /* colors */
 .y1 {
     color: #FEA301;
@@ -29,6 +45,7 @@ a {
     color: #01ACFD;
 }
 
+/* header section started */
 /* nav section */
 .nav-bar {
     max-width: 1680px;
@@ -154,6 +171,140 @@ a {
     height: 766px;
 }
 
+/* header section ended */
+
+
+/* main section started*/
+
+/* standard section */
+
+
+#standard {
+    max-width: 1980px;
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.standard-title {
+    margin: 79px auto 106px;
+    font-weight: bold;
+    font-size: 3.6rem;
+}
+.standard-container {
+
+    max-width: 1680px;
+    margin: 0px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    justify-content: space-between;
+    width: 1680px;
+    margin-bottom: 106px;
+    gap: 37px;
+    
+    
+}
+
+.left-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 37px; */
+    max-width: 489px;
+    max-height: 901px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 23px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.left-card img {
+    margin-top: 70px;
+    height: 181px;
+    width: 181;
+}
+.middle-card img {
+    margin-top: 58px;
+    height: 187px;
+    width: 187px;
+}
+
+.right-card img {
+    margin-top: 77px;
+    width: 166px;
+    height: 167px;
+}
+.card-title {
+    margin-top: 51px;
+    font-weight: 700;
+    font-size: 1.6rem;
+
+}
+.card-description {
+    margin-top: 50px;
+    text-align: center;
+    color: #808080;
+    margin-left: 54px;
+    margin-right: 54px;
+}
+.card-btn {
+    margin-top: 45px;
+    margin-bottom: 82px;
+    border: none;
+    background-color: transparent;
+
+}
+
+.middle-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 489px;
+    max-height: 901px;
+    /* margin-right: 37px; */
+    max-width: 489px;
+    max-height: 901px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 23px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    
+}
+
+.right-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 489px;
+    max-height: 901px;
+    /* margin-right: 37px; */
+    max-width: 489px;
+    max-height: 901px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 23px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+.icon-container {
+    gap: 13px;
+    margin-bottom: 79px;
+}
+.icon-container img {
+    width: 79px;
+    height: 79px;
+    
+}
+
+
+
+
 /* responsive area */
 /* for small device */
 @media screen and (max-width:576px) {
@@ -170,9 +321,10 @@ a {
     .hamburger-icon {
         display: block;
     }
+
     .hr-line {
         display: block;
-     
+
         width: 100%;
         margin-bottom: 10.6px;
     }
@@ -180,8 +332,8 @@ a {
     .banner {
         flex-direction: column-reverse;
         width: 357px;
-        margin: auto;
-        
+        margin-bottom: 0px;
+
     }
 
     .banner-content {
@@ -190,6 +342,7 @@ a {
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        margin-bottom: 0px;
     }
 
     .banner-img img {
@@ -206,7 +359,7 @@ a {
     .banner-title {
         font-size: 2rem;
         text-align: center;
-        
+
     }
 
     .banner-description {
@@ -216,6 +369,26 @@ a {
 
     .banner-btn {
         font-size: 1rem;
+        margin-bottom: 0px;
 
     }
+    .standard-container, .card-container, .left-card, .middle-card, .right-card {
+        flex-direction: column;
+    }
+    .card-container {
+        width: 357px;
+        margin-bottom: 20px;
+    }
+    .icon-container {
+        display: none;
+    }
+    .standard-title {
+        text-align: center;
+        font-size: 2rem;
+        margin: 40px auto 20px;
+    }
+    #standard {
+        /* margin-bottom: 20px; */
+    }
 }
+
