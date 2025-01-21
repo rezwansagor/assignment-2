@@ -1,7 +1,221 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .quicksand-normal {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
-  }
-  
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* colors */
+.y1 {
+    color: #FEA301;
+}
+
+.b1 {
+    color: #01ACFD;
+}
+
+/* nav section */
+.nav-bar {
+    max-width: 1680px;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    align-items: center;
+    justify-content: center;
+}
+
+.logo .school {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.nav-links {
+    gap: 32px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+.home {
+    color: #FEA301;
+}
+
+.about {
+    color: #01ACFD;
+}
+
+.facilities {
+    color: #05D4DF;
+}
+
+.admission {
+    color: #5D58EF;
+}
+
+.nav-items {
+    font-size: 1.4rem;
+    font-weight: 700;
+
+}
+
+.hamburger-icon {
+    height: 30px;
+    width: 30px;
+    display: none;
+}
+
+.nav-btn {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 39px;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    padding: 20px 50px;
+    border: none;
+}
+
+.hr-line {
+    box-sizing: border-box;
+    border: 0.5px solid rgb(254, 163, 1);
+    display: none;
+}
+
+.banner {
+    max-width: 1680px;
+    margin: 0px auto;
+    gap: 66px;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 853px;
+    margin: 162px 0px;
+}
+
+.banner-title {
+    font-size: 4.6rem;
+    font-weight: 700;
+    margin-bottom: 31px;
+
+}
+
+.banner-description {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 31px;
+}
+
+.banner-btn {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 20px 50px;
+}
+
+.banner-img {
+    max-width: 623px;
+    max-height: 766px;
+
+}
+
+.banner-img img {
+    height: 766px;
+}
+
+/* responsive area */
+/* for small device */
+@media screen and (max-width:576px) {
+
+    .nav-links,
+    .school {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+    .hr-line {
+        display: block;
+     
+        width: 105%;
+        margin-bottom: 10.6px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        width: 357px;
+        margin: auto;
+        
+    }
+
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .banner-img img {
+        max-width: 336.58px;
+        max-height: 413px;
+    }
+
+    .banner-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        text-align: center;
+        
+    }
+
+    .banner-description {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .banner-btn {
+        font-size: 1rem;
+
+    }
+}
