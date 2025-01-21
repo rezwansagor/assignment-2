@@ -273,7 +273,7 @@ a {
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 23px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
     
 }
 
@@ -290,7 +290,7 @@ a {
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 23px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 .icon-container {
     gap: 13px;
