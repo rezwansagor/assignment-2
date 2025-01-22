@@ -565,6 +565,122 @@ a {
     margin: auto;
 }
 
+/* footer section  */
+
+.last-sec {
+    max-width: 1920px;
+    max-height: 691px;
+    background-color: rgb(1, 172, 253);
+    border: 1px solid rgb(1, 172, 253);
+
+}
+
+.items-container {
+    justify-content: space-between;
+    max-width: 1426px;
+    max-height: 295px;
+    border: 1px solid rgb(1, 172, 253);
+    margin: 163px 303px 231px 186px;
+
+}
+
+
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+
+}
+
+.menu-items a {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+
+.about-school {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 42px;
+
+}
+
+.left-side {
+    max-width: 530px;
+    margin-right: 229px;
+}
+
+.left-side-logo-box {
+    margin: 0px 371px 46px 0px;
+}
+
+.left-side-logo-box img {
+    width: 96px;
+    height: 95px;
+
+}
+
+.kids-edu {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.left-side-description {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 9px;
+    margin-bottom: 5px;
+}
+
+.right-side {
+    max-width: 255px;
+    margin: 0px 0px 159px 189px;
+}
+
+.keep-in-touch {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 42px;
+    margin-right: 4px;
+
+}
+
+.icon-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 
 /* responsive area */
 /* for small device */
@@ -573,6 +689,9 @@ a {
     .nav-links,
     .school {
         display: none;
+    }
+    .nav-bar {
+        margin: 12px 16px;
     }
 
     .nav-btn {
@@ -638,7 +757,8 @@ a {
     .card-container,
     .left-card,
     .middle-card,
-    .right-card {
+    .right-card,
+    .items-container {
         flex-direction: column;
     }
 
@@ -723,6 +843,7 @@ a {
         right: -20px;
 
     }
+
     #box-2 .date {
         color: rgb(255, 255, 255);
         font-family: Raleway;
@@ -737,6 +858,7 @@ a {
         right: -20px;
 
     }
+
     #box-3 .date {
         color: rgb(255, 255, 255);
         font-family: Raleway;
@@ -751,6 +873,7 @@ a {
         right: -20px;
 
     }
+
     #box-4 .date {
         color: rgb(255, 255, 255);
         font-family: Raleway;
@@ -765,4 +888,96 @@ a {
         right: -20px;
 
     }
+
+    .last-sec {
+        max-height: 702px;
+    }
+    .items-container {
+        max-height: 662px;
+        margin: 0px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .left-side-logo-box {
+        width: 250px;
+        height: 69px;
+        margin: 25px 123px 22px 16px;
+    }
+
+    .left-side-logo-box img {
+        width: 69px;
+        height: 69px;
+    }
+
+    .kids-edu {
+        color: rgb(255, 255, 255);
+        font-family: Quicksand;
+        font-size: 35.73px;
+        font-weight: 700;
+        line-height: 33.5px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .left-side-description {
+        color: rgb(255, 255, 255);
+        font-family: Quicksand;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 0px 12px 32px 21px;
+    }
+
+    .left-side {
+        width: 357px;
+        margin: 0px;
+    }
+.middle-side {
+    margin-left: 20px;
+}
+    .right-side {
+        max-width: 255px;
+        margin: 0px;
+        margin-left: 20px;
+        
+    }
+
+    .about-school {
+        color: rgb(255, 255, 255);
+        font-family: Quicksand;
+        font-size: 20.35px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 0px;
+        margin-bottom: 27px;
+    }
+
+    .menu-items {
+        color: rgb(255, 255, 255);
+        font-family: Quicksand;
+        font-size: 16.96px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: left;
+        gap: 17px;
+    }
+
+    .keep-in-touch {
+        color: rgb(255, 255, 255);
+        font-family: Quicksand;
+        font-size: 22.04px;
+        font-weight: 700;
+        line-height: 22.04px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 0px;
+        margin-top: 31px;
+        margin-bottom: 36px;
+    }
+
 }
