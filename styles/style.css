@@ -118,7 +118,12 @@ a {
     border: 0.5px solid rgb(254, 163, 1);
     display: none;
 }
-
+.marquee {
+    margin: 20px 0;
+    font-size: 18px;
+    color: rgb(254, 163, 1);
+    text-align: center;
+}
 .banner {
     max-width: 1680px;
     margin: 0px auto;
@@ -692,6 +697,12 @@ a {
     }
     .nav-bar {
         margin: 12px 16px;
+    }
+    .marquee {
+        margin: 20px 0;
+        font-size: 18px;
+        color: rgb(1, 172, 253);
+        text-align: center;
     }
 
     .nav-btn {
