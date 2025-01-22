@@ -956,7 +956,7 @@ a {
         margin-bottom: 27px;
     }
 
-    .menu-items {
+    .menu-items a{
         color: rgb(255, 255, 255);
         font-family: Quicksand;
         font-size: 16.96px;
@@ -964,6 +964,9 @@ a {
         line-height: 21px;
         letter-spacing: 0%;
         text-align: left;
+        
+    }
+    .menu-items {
         gap: 17px;
     }
 
